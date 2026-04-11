@@ -160,3 +160,16 @@
 .landing-badge {
   box-shadow: 0 0 0 1px rgba(124, 58, 237, 0.2), 0 8px 32px -12px rgba(124, 58, 237, 0.35);
 }
+
+/* Landing “How it works” step cards */
+.landing-flow-step {
+  transition: transform 180ms ease, border-color 220ms ease, box-shadow 220ms ease,
+    background-color 220ms ease;
+}
+
+.landing-flow-step:hover {
+  transform: translateY(-2px);
+  border-color: rgba(124, 58, 237, 0.45);
+  box-shadow: 0 16px 48px -28px rgba(124, 58, 237, 0.55);
+  background-color: rgba(22, 27, 34, 0.85);
+}

@@ -8,6 +8,7 @@ import {
   Layers,
 } from 'lucide-react';
 import { navigate } from './lib/router';
+import FlowSection from './components/FlowSection.jsx';
 
 const featureCards = [
   {
@@ -54,17 +55,9 @@ export default function LandingPage() {
             <button
               type="button"
               onClick={() => navigate('/signup')}
-              className="btn-ghost text-sm"
+              className="btn-primary text-sm"
             >
               Sign up
-            </button>
-            <button
-              type="button"
-              onClick={() => navigate('/app')}
-              className="btn-primary inline-flex items-center gap-2 text-sm"
-            >
-              Launch app
-              <ArrowRight size={15} />
             </button>
           </div>
         </div>
@@ -107,6 +100,8 @@ export default function LandingPage() {
             </button>
           </div>
         </section>
+
+        <FlowSection />
 
         <section className="mt-20 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {featureCards.map(({ title, desc, Icon }) => (
