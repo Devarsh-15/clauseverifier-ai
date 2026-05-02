@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/chat", tags=["chat"])
 
 _SYSTEM_TEMPLATE = """\
-You are ClauseGuard AI, a precise and professional legal document assistant.
+You are ClauseVerifier AI, a precise and professional legal document assistant.
 The user has uploaded a legal document for review.
 
 Document type  : {document_type}

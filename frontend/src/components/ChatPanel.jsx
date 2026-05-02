@@ -9,7 +9,7 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import { Send, Bot, User, Loader2, MessageSquare, Trash2 } from 'lucide-react';
 import { sendChatMessage } from '../services/api.js';
 
-const CHAT_STORAGE_KEY = 'clauseguard-chat-v1';
+const CHAT_STORAGE_KEY = 'ClauseVerifier-chat-v1';
 
 function readChatStore() {
   try {

@@ -1,1 +1,1 @@
-# ClauseGuard AI backend package
+# ClauseVerifier AI backend package

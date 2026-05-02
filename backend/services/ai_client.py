@@ -117,8 +117,8 @@ class AIClient:
                 headers={
                     "Authorization": f"Bearer {settings.openrouter_api_key}",
                     "Content-Type": "application/json",
-                    "HTTP-Referer": "https://clauseguard.local",
-                    "X-Title": "ClauseGuard AI",
+                    "HTTP-Referer": "https://ClauseVerifier.local",
+                    "X-Title": "ClauseVerifier AI",
                 },
                 json=payload,
             )

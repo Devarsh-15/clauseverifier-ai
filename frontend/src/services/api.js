@@ -1,5 +1,5 @@
 /**
- * api.js — ClauseGuard AI HTTP client
+ * api.js — ClauseVerifier AI HTTP client
  *
  * All field names mirror the FastAPI response shapes exactly.
  * The Vite proxy forwards /api/* → http://localhost:8000, so no

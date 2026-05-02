@@ -1,4 +1,4 @@
-# ClauseGuard AI
+# ClauseVerifier AI
 
 A full-stack legal document analysis system. Upload a PDF contract or agreement and get:
 
@@ -12,7 +12,7 @@ A full-stack legal document analysis system. Upload a PDF contract or agreement 
 ## Architecture
 
 ```
-clauseguard/
+ClauseVerifier/
 ├── backend/               FastAPI (Python 3.11+)
 │   ├── main.py            App entry, CORS, router wiring
 │   ├── config.py          Pydantic-settings (reads .env)

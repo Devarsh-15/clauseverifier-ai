@@ -1,5 +1,5 @@
 """
-ClauseGuard AI — FastAPI application entry point.
+ClauseVerifier AI — FastAPI application entry point.
 """
 
 from __future__ import annotations
@@ -17,7 +17,7 @@ logging.basicConfig(
 )
 
 app = FastAPI(
-    title="ClauseGuard AI",
+    title="ClauseVerifier AI",
     description="Legal document analysis and clause risk assessment API.",
     version="1.0.0",
 )
@@ -45,4 +45,4 @@ app.include_router(chat.router)
 # ── Health check ───────────────────────────────────────────────────────────
 @app.get("/health", tags=["meta"])
 async def health():
-    return {"status": "ok", "service": "ClauseGuard AI", "version": "1.0.0"}
+    return {"status": "ok", "service": "ClauseVerifier AI", "version": "1.0.0"}
