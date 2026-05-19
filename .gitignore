@@ -17,3 +17,4 @@ unipro/
 backend/.env
 frontend/.env
 .env
+.vscode/
