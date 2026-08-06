@@ -1,0 +1,45 @@
+# =========================
+# Python
+# =========================
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+frontend/dist/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+backend/.env
+frontend/.env
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Local Virtual Environments
+# =========================
+unipro/
+
+# =========================
+# Miscellaneous
+# =========================
+*.log
